@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="css" href="/css/styles.css">
-    <script src="/js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="css/styles-chat.css">
     <title>Chat / Group / Modern / Chat</title>
@@ -12,7 +11,7 @@
 <body>
     <div class="top_bar">
         <div class="image">
-            <img src="images/chat.png" alt="image"  >
+            <img src="images/chat.png" alt="image">
         </div>
         <div class="container">
             <div class="search">
@@ -20,7 +19,7 @@
                     <img src="icons/search.svg" alt="image" class="glass">
                 </div>
                 <div class="input">
-                    <input type="text" placeholder="Search for task and etc." id="text">
+                    <textarea placeholder="Search for task and etc." rows="1" class="text"></textarea>
                 </div>
             </div>
             <div class="bell">
@@ -109,10 +108,10 @@
                         <img src="images/Text.png" alt="source" class="icon">
                     </div>
                     <div>
-                        <input type="text" placeholder="Your messsage" class="text">
+                        <textarea class="text_in" rows="1" placeholder="Your message"></textarea>
                     </div>
                     <div>
-                        <img src="images/send.png" alt="source" class="icon">
+                        <img src="images/send.png" alt="source" class="icon_input">
                     </div>
                 </div>
             </div>
@@ -166,6 +165,6 @@
         
     </div>
 
-
+    <script src="js/scripts_chat.js"></script>
 </body>
 </html>
